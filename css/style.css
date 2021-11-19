@@ -189,7 +189,8 @@ ul {
 
 .footer-img {
     width: 60px;
-    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
     margin: 0 10px;
 }
 
@@ -300,6 +301,11 @@ ul {
     .user {
         margin-right: 0;
         padding-top: 6px;
+    }
+
+    .footer-img {
+        min-width: 50px;
+        height: 50px;
     }
 
 }
