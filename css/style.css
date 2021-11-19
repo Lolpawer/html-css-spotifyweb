@@ -10,7 +10,7 @@
     color: #ededed;
 }
 
-.logo-small {
+.mobile-view {
     display: none;
 }
 
@@ -29,7 +29,7 @@ ul {
 .green-line-y {
     position: absolute;
     height: 31px;
-    border: 2px solid #a7f62d;
+    border: 1px solid #a7f62d;
     top: 84px;
     left: -20px;
 }
@@ -182,4 +182,41 @@ ul {
     .main-box {
         width: calc(100% - 70px);
     }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+    .sidebar {
+        padding: 10px 10px;
+    }
+
+    .spotify-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .spotify-logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sidebar p {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .app-install {
+        border: none;
+    }
+
+    .user {
+        margin-right: 0;
+        padding-top: 6px;
+    }
+
 }

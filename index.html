@@ -18,16 +18,19 @@
             <div class="sidebar"> <!-- Sidebar -->
                 <div class="sidebar-top">
                     <div class="sidebar-nav relative">
-                        <div class="green-line-y"></div>
+                        <div class="green-line-y mobile-hide"></div>
                         <div class="spotify-logo">
-                            <img src="img/logo.svg" class="logo-full">
-                            <img src="img/logo-small.svg" class="logo-small">
+                            <img src="img/logo.svg" class="mobile-hide">
+                            <img src="img/logo-small.svg" class="mobile-view">
                         </div>
-                        <p><i class="fas fa-home"></i> Home</p>
-                        <p class="gray-text"><i class="fas fa-search"></i> Cerca</p>
-                        <p class="gray-text"><i class="fas fa-book"></i> La tua libreria</p>
+                        <p class="mobile-hide"><i class="fas fa-home"></i> Home</p>
+                        <p class="gray-text mobile-hide"><i class="fas fa-search"></i> Cerca</p>
+                        <p class="gray-text mobile-hide"><i class="fas fa-book"></i> La tua libreria</p>
+                        <p class="mobile-view"><i class="fas fa-home"></i></p>
+                        <p class="gray-text mobile-view"><i class="fas fa-search"></i></p>
+                        <p class="gray-text mobile-view"><i class="fas fa-book"></i></p>
                     </div>
-                    <div class="sidebar-playlist">
+                    <div class="sidebar-playlist mobile-hide">
                         <div class="sidebar-playlist-create">
                             PLAYLIST
                             <p class="gray-text"><i class="fas fa-plus-square"></i> Crea Playlist</p>
@@ -46,8 +49,10 @@
                     </div>
                 </div>
                 <div class="sidebar-bot">
-                    <p class="app-install gray-text"><i class="fas fa-arrow-circle-down"></i> Installa app</p>
-                    <p class="user-align"><i class="user fas fa-user-circle"></i> John Doe</p>
+                    <p class="app-install gray-text mobile-hide"><i class="fas fa-arrow-circle-down"></i> Installa app</p>
+                    <p class="user-align mobile-hide"><i class="user fas fa-user-circle"></i> John Doe</p>
+                    <p class="app-install gray-text mobile-view"><i class="fas fa-arrow-circle-down"></i></p>
+                    <p class="user mobile-view"><i class="user fas fa-user-circle"></i></p>
                 </div>
             </div>
             <div class="main-box"> <!-- Header e main -->
