@@ -10,9 +10,28 @@
     color: #ededed;
 }
 
-.subtitle {
-    color: #757575;
-    font-size: 13px;
+.logo-small {
+    display: none;
+}
+
+.gray-text {
+    color: #a3a3a3;
+}
+
+ul {
+    list-style: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.green-line-y {
+    position: absolute;
+    height: 31px;
+    border: 2px solid #a7f62d;
+    top: 84px;
+    left: -20px;
 }
 
 .main-page {
@@ -25,16 +44,34 @@
     width: 250px;
     height: 100%;
     background-color: #000;
+    padding: 0 20px;
 }
 
 .sidebar-top {
     width: 100%;
     height: calc(100% - 100px);
+    min-height: 410px;
 }
 
 .sidebar-nav {
     width: 100%;
     height: 200px;
+}
+
+.spotify-logo img {
+    width: 150px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.sidebar-nav p {
+    padding: 5px 0;
+}
+
+.sidebar-nav p i {
+    margin-right: 5px;
+    font-size: 20px;
+    width: 20px;
 }
 
 .sidebar-playlist {
@@ -44,19 +81,49 @@
 
 .sidebar-playlist-create {
     width: 100%;
-    height: 100px;
+    height: 80px;
+}
+
+.sidebar-playlist-create p {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.sidebar-playlist-create i {
+    font-size: 40px;
+    margin-right: 5px;
 }
 
 .sidebar-playlist-list {
     width: 100%;
     height: calc(100% - 100px);
     overflow-y: auto;
-    min-height: 50px;
+}
+
+.sidebar-playlist-list li {
+    padding: 10px 0;
 }
 
 .sidebar-bot {
     width: 100%;
     height: 100px;
+}
+
+.app-install {
+    border-bottom: 2px #a3a3a3 solid;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.user-align {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    font-size: 30px;
+    margin-right: 5px;
 }
 
 .main-box {
@@ -72,6 +139,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 .main {
@@ -84,6 +152,7 @@
     background-color: #333;
     display: flex;
     position: fixed;
+    z-index: 1;
 }
 
 .footer-left,
