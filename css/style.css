@@ -204,10 +204,11 @@ ul {
     width: 100%;
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
 }
 
 .song-box {
-    width: 200px;
+    width: calc(100% / 6 - 10px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -367,6 +368,10 @@ ul {
 
 @media screen and (max-width: 1199px) {
 
+    .song-box {
+        width: calc(100% / 4 - 10px);
+    }
+
 }
 
 /* MOBILE */
@@ -418,6 +423,10 @@ ul {
 
     .header {
         width: calc(100% - 70px);
+    }
+
+    .song-box {
+        width: calc(100% / 2 - 10px);
     }
 
     .footer-img {
